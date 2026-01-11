@@ -1,0 +1,29 @@
+{
+  "name": "stockery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-hajime:hajime110419/stockery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.0.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.8",
+    "better-sqlite3": "^12.6.0",
+    "hono": "^4.11.3"
+  }
+}
